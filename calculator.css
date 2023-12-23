@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 17rem;
+    background-color: #344556;
+}
+body{
+    display: grid;
+    place-content: center;
+    height: 100vh;
+}
+.container{
+    display: block;
+    padding: 0.5rem;
+    
+}
+.container input{
+    padding: 0.5rem;
+}
+
+.con{
+    padding-top: 0.5rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+.button-con{
+    padding-top: 1rem;
+}
+button{
+    padding: 0.8rem;   
+    cursor: pointer; 
+    transition: ease-out;
+    &:hover{
+        background-color: silver;
+    }
+}
